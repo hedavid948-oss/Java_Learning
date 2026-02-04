@@ -1,9 +1,10 @@
-package src.com.david.game;
+package com.david.game;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
 public class ShapeGame extends JFrame {
+    private static final long serialVersionUID = 1L;
     // 1. 游戏状态变量 (Data Members)
     private int clicks = 0;          // 总点击数
     private int sides = 3;           // 当前边数（从三角形开始）
@@ -51,6 +52,7 @@ public class ShapeGame extends JFrame {
 
     // 内部类：专门处理绘图
     class GamePanel extends JPanel {
+        private static final long serialVersionUID = 1L;
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);

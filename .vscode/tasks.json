@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "javac: build game",
+      "type": "shell",
+      "command": "javac",
+      "args": ["-encoding", "UTF-8", "-d", "out", "src\\com\\david\\game\\*.java"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$java"],
+      "presentation": { "reveal": "always" }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run TestGame (Launch)",
+      "request": "launch",
+      "mainClass": "com.david.game.TestGame",
+      "preLaunchTask": "javac: build game",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Run NeonConquest (Launch)",
+      "request": "launch",
+      "mainClass": "com.david.game.NeonConquest",
+      "preLaunchTask": "javac: build game",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Run TetrisGame (Launch)",
+      "request": "launch",
+      "mainClass": "com.david.game.TetrisGame",
+      "preLaunchTask": "javac: build game",
+      "console": "integratedTerminal"
+    }
+  ]
+}
